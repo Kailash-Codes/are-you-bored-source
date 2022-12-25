@@ -10,10 +10,6 @@ body{
     padding: 0 16px;
     min-width: 100vw;
 }
-.App{
-    display: flex;
-    justify-content: center;
-}
 @media (width<=395px){
 .image{
     height:150px !important;
