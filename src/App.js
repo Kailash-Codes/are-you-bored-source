@@ -5,7 +5,8 @@ import MainContainer from "./Components/home/MainContainer";
 const App = () => {
   return (
     <div className="flex justify-center ">
-      <ActivityContainer />
+    {/* <MainContainer /> */}
+    <ActivityContainer />
     </div>
   );
 };
