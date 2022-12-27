@@ -7,10 +7,8 @@ import { Route } from "react-router-dom";
 const App = () => {
   return (
     <div className="flex justify-center ">
-    <Routes>
-      <Route path="/" element={<MainContainer/>} />
-      <Route path="/activities" element={<ActivityContainer/>} />
-    </Routes>
+  <MainContainer/>
+  <ActivityContainer/>
     </div>
   );
 };
